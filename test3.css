@@ -1,0 +1,274 @@
+.step-section{
+    display: flex;
+    justify-content: center;
+}
+
+.step-circle{
+    height: 115px;
+    width: 115px;
+    border: solid;
+    background-color: #DFDFDF;
+    border-radius: 50%;
+}
+
+.step-line{
+    width: 247px;
+    height: 100%;
+    border: 2px solid;
+    margin-top: 65.5px;
+}
+
+.current-line{
+    width: 247px;
+    height: 100%;
+    border: 2px #3178A0 solid;
+}
+
+.current-circle{
+    border: 3px #3178A0 solid;
+}
+.current-number{
+    color: #3178A0;
+}
+
+.step-circle{
+    display: flex;
+    flex-direction: column;
+}
+
+.step-number{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.step-caption{
+    font-family: Open Sans;
+font-size: 24px;
+font-weight: 300;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.step-caption-section{
+    display: flex;
+    gap: 220px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.input-heading{
+    display: flex;
+}
+
+.input-big-heading{
+    font-family: Open Sans;
+font-size: 24px;
+font-weight: 300;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.input-small-heading{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+margin-top: 8px;
+margin-left: 20px;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.check-caption{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.input-horizantal{
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.input-box-caption{
+    font-family: Open Sans;
+font-size: 14px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.input-box{
+    width: 335px;
+    height: 50px;
+    border: 1px #949494 solid;
+    border-radius: 5px;
+}
+
+.additional-parties{
+    width: 240px;
+    height: 56px;
+    background-color: black;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.input-para-heading{
+    font-family: Open Sans;
+font-size: 14px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #DB5757;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #1DCE00;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #1DCE00;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+
+  .spec-heading{
+color: black;
+ font-size: 24px;
+ font-family: Open Sans;
+ font-weight: 300;
+ word-wrap: break-word
+  }
+
+  .switch-label{
+    color: black;
+font-size: 20px;
+font-family: Open Sans;
+font-weight: 300;
+word-wrap: break-word
+  }
